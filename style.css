@@ -1,0 +1,116 @@
+/*
+
+	COLORS :
+	-navbar-Color:  #2d160e;
+	-h1-color:  #D3984E;
+	-h2-color;about-Color:  #F6E1C5;
+
+*/
+body{
+	background: linear-gradient(to right,rgba(45, 22, 14, 0.7), rgba(45, 22, 14, 0.7)),url('img/bg.jpg') no-repeat;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*==========================================
+
+	HEADER SECTION
+
+============================================*/
+header h1{
+	color: #D3984E;
+	font-weight: bolder;
+	font-size: 2em;
+	letter-spacing: 1px;
+}
+header p{
+	color: #F6E1C5;
+	font-weight: 100;
+	font-size: 5em;
+}
+header .navbar{
+	background-color: rgba(45, 22, 14, 1) !important;
+}
+.navbar-brand{
+	color: #D3984E;
+	font-weight: 500;
+}
+nav span > i{
+	font-size: 1.8em;
+	color: #D3984E;
+	padding: 0.5rem 1rem;
+}
+nav ul > li{
+	padding: 0.5rem 1.5rem;
+}
+nav ul > li > a{
+	color: #F6E1C5 !important;
+	font-weight: bold;
+}
+nav ul > li > a:hover{
+	color: rgba(211, 152, 78, 0.5) !important;
+}
+
+/*===========================================================
+
+
+	GENERAL CLASSES
+
+=============================================================*/
+.card-bg{
+	background-color: #F6E1C5 !important;
+	z-index: 1;
+}
+.card-h2{
+	font-size: 1.1em;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.card-h3{
+	font-weight: 100;
+	font-size: 2.5em;
+}
+.card-p{
+	font-family: serif;
+	font-size: 1.1em;
+}
+.btn-maron{
+	background-color: #D3984E;
+	font-size: 0.9em;
+	font-weight: 700;
+	left: 35%;
+	bottom: -22%;
+}
+
+/*============================================================================
+
+	ACCEUIL SECTON
+
+==============================================================================*/
+#fresh-coffee{
+	height: 100vh;
+}
+.photo-acceuil{
+	width: 840px !important;
+	transform: translate(300px, 0);
+	z-index: -1;
+}
+
+
+@media(max-width: 992px){
+	.position-initial{
+		position: static !important;
+	}
+	#fresh-coffee{
+		height: initial;
+	}
+	.photo-acceuil{
+		width: unset;
+		transform: translate(0, 0);
+	}
+
+	.card-h3{
+		font-weight: 100;
+		font-size: 1.8em;
+	}
+}
