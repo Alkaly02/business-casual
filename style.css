@@ -257,3 +257,45 @@ footer p{
 		bottom: -38%;
 	}
 }
+
+/*=========================== STORE PAGE ======================*/
+#come-on{
+	margin-top: 5rem !important;
+}
+.come-on{
+	font-family: 'Quintessential', cursive;
+}
+.open-days{
+	width: 50%;
+	margin: auto;
+}
+.open-days p{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #D3984E;
+	padding-bottom: 0.2rem;
+	font-size: 1.3em;
+}
+.open-days p:last-of-type{
+	color: #D3984E;
+}
+.open-days + h2{
+	font-size: 1.3em;
+}
+.open-days + h2 + p, .contact-me p + p{
+	font-size: 1.1em;
+}
+
+@media(max-width: 992px){
+	.open-days{
+		width: 80%;
+	}
+}
+@media(max-width: 576px){
+	.open-days{
+		width: 95%;
+	}
+	.open-days p{
+		font-size: 0.95em;
+	}
+}
