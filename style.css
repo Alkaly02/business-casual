@@ -181,7 +181,60 @@ footer p{
 	}
 }
 @media(max-width: 576px){
-	#about .card-h3{
+	.card-h3{
 		font-size: 1.3em;
 	}
+}
+
+/*================================= PRODUCTS PAGE =============================*/
+#products-1{
+	margin-top: 6rem;
+	margin-bottom: 12rem;
+}
+.products img{
+	width: 70%;
+}
+.products .col-lg-6{
+	border-radius: 5px;
+}
+#products-1 .col-right{
+	top: -10%;
+	right: 0;
+}
+#products-1 .col-left{
+	bottom: -25%;
+}
+
+@media(max-width: 1100px){
+	#products-1 .col-left, #products-2 .col-left-2{
+		bottom: -33%;
+	}
+}
+@media(max-width: 992px){
+	.products img{
+		width: 100%;
+	}
+	#products-1, #products-2{
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+	#products-1 .col-right,#products-1 .col-left, #products-2 .col-right-2, #products-2 .col-left-2{
+		position: static !important;
+		top: initial;
+		right: initial;
+		position: static !important;
+		bottom: initial;
+	}
+}
+
+#products-2{
+	margin-top: 15rem;
+	margin-bottom: 10rem;
+}
+#products-2 .col-right-2{
+	top: -15%;
+}
+#products-2 .col-left-2{
+	right: 0;
+	bottom: -23%;
 }
