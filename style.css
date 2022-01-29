@@ -95,7 +95,7 @@ nav ul > li > a:hover{
 ==============================================================================*/
 #fresh-coffee{
 	height: 100vh;
-	margin-bottom: 5rem;
+	/*margin-bottom: 5rem;*/
 }
 #fresh-coffee .container-sm, #fresh-coffee .container-sm .row{
 	height: inherit !important;
@@ -113,7 +113,7 @@ nav ul > li > a:hover{
 
 ================================================================================*/
 #promise{
-	margin: 5rem 0;
+	margin: 0 0 5rem 0;
 }
 
 /*===============================================================================
