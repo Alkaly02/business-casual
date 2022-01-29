@@ -54,7 +54,7 @@ nav ul > li > a:hover{
 /*===========================================================
 
 
-	GENERAL CLASSES
+	GENERAL ELEMENTS
 
 =============================================================*/
 .card-bg{
@@ -88,6 +88,13 @@ nav ul > li > a:hover{
 	border: 5px solid #F6E1C5;
 	border-radius: 5px;
 }
+footer{
+	background-color: rgba(45, 22, 14, 1);
+}
+footer p{
+	color: #F6E1C5;
+}
+
 /*============================================================================
 
 	ACCEUIL SECTON
@@ -121,12 +128,6 @@ nav ul > li > a:hover{
 	FOOTER
 
 =================================================================================*/
-footer{
-	background-color: rgba(45, 22, 14, 1);
-}
-footer p{
-	color: #F6E1C5;
-}
 
 @media(max-width: 1100px){
 	.menu-picture{
@@ -144,5 +145,32 @@ footer p{
 		width: unset;
 		transform: translate(0,0);
 		position: relative;
+	}
+}
+
+/*=============================== ABOUT PAGE ============================*/
+#about{
+	margin-bottom: 20rem;
+}
+#about .col-lg-10{
+	border-radius: 5px;
+    bottom: -70%;
+}
+
+@media(max-width: 1100px){
+	#about{
+		margin-bottom: 23rem;
+	}
+	#about .col-lg-10{
+		bottom: -90%;
+	}
+}
+@media(max-width: 992px){
+	#about{
+		margin-bottom: initial;
+	}
+	#about .col-lg-10{
+		border-radius: 5px;
+	    bottom: 0;
 	}
 }
