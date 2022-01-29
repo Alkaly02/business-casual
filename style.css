@@ -173,4 +173,15 @@ footer p{
 		border-radius: 5px;
 	    bottom: 0;
 	}
+	#about div:firt-of-type{
+		position: static !important;
+	}
+	#about .col-lg-10{
+		position: static !important;
+	}
+}
+@media(max-width: 576px){
+	#about .card-h3{
+		font-size: 1.3em;
+	}
 }
