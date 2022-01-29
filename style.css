@@ -95,11 +95,15 @@ nav ul > li > a:hover{
 ==============================================================================*/
 #fresh-coffee{
 	height: 100vh;
+	margin-bottom: 5rem;
 }
-.photo-acceuil{
-	width: 840px !important;
-	transform: translate(300px, 0);
-	z-index: -1;
+#fresh-coffee .container-sm, #fresh-coffee .container-sm .row{
+	height: inherit !important;
+}
+.menu-picture{
+	width: 800px;
+	transform: translate(350px,0);
+	position: absolute;
 }
 
 
@@ -109,24 +113,36 @@ nav ul > li > a:hover{
 
 ================================================================================*/
 #promise{
-	margin-top: 2rem;
+	margin: 5rem 0;
 }
 
+/*===============================================================================
+
+	FOOTER
+
+=================================================================================*/
+footer{
+	background-color: rgba(45, 22, 14, 1);
+}
+footer p{
+	color: #F6E1C5;
+}
+
+@media(max-width: 1100px){
+	.menu-picture{
+		width: 750px;
+		transform: translate(220px,0);
+	}
+}
 
 @media(max-width: 992px){
-	.position-initial{
-		position: static !important;
-	}
 	#fresh-coffee{
 		height: initial;
+		margin-bottom: 5rem;
 	}
-	.photo-acceuil{
+	.menu-picture{
 		width: unset;
-		transform: translate(0, 0);
-	}
-
-	.card-h3{
-		font-weight: 100;
-		font-size: 1.8em;
+		transform: translate(0,0);
+		position: relative;
 	}
 }
