@@ -81,7 +81,13 @@ nav ul > li > a:hover{
 	left: 35%;
 	bottom: -22%;
 }
-
+.promise-bg{
+	background-color: #D3984E;
+}
+.border-maron{
+	border: 5px solid #F6E1C5;
+	border-radius: 5px;
+}
 /*============================================================================
 
 	ACCEUIL SECTON
@@ -94,6 +100,16 @@ nav ul > li > a:hover{
 	width: 840px !important;
 	transform: translate(300px, 0);
 	z-index: -1;
+}
+
+
+/*==============================================================================
+
+	PROMISE SECTION
+
+================================================================================*/
+#promise{
+	margin-top: 2rem;
 }
 
 
